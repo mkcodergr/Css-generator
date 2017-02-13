@@ -68,8 +68,8 @@
                 </div>
                 <h1>Skew</h1>
                 <div class="slider_container">
-                    <input type="range" class="ultra_app skew" id="skewx" min="-180" max="180" value="0" step="1">
-                    <input type="range" class="ultra_app skew" id="skewy" min="-360" max="360" value="0" step="1">
+                    <input type="range" class="transform_slider ultra_app skew" id="skewx" min="-180" max="180" value="0" step="1">
+                    <input type="range" class="transform_slider ultra_app skew" id="skewy" min="-360" max="360" value="0" step="1">
                     <hr class="rule">
                 </div>
             </div>
@@ -135,7 +135,7 @@
         <div class="btn btn-primary" id="toggleCode">Hide code</div>
         <div class='btn btn-info' onclick="$('#Favourites').toggle(789)">Toggle favourites</div>
         <div class='btn btn-info' id="downloadFavourites">Download favourites</div>
-        <div class="btn btn-danger" onclick="removefav()">Remove favourites</div>
+        <div class="btn btn-danger" id="removeFavouritesBtn">Remove favourites</div>
         <div id="export" class="jumbotron">
             <div class="panel panel-primary">
                 <!--id="code_output"-->
